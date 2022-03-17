@@ -1,9 +1,6 @@
-import logo from './resources/svg/logo.svg';
-import frame from './resources/svg/frame.svg';
-import holo from './resources/img/holo-bg.png'
 import './App.css'
 import { NameClipPath } from './nameClipPath';
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect } from 'react';
 import { interpolate } from './logic/utils'
 import { useDeviceOrientation } from './logic/device-orientation-hook';
 
