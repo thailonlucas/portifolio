@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     if(!logoSvg.current || !stripe.current) return
-    let x = interpolate(orientation.gamma, -70, 70, 0, 100)
+    let x = interpolate(orientation.alpha, -70, 70, 0, 100)
     let y = interpolate(orientation.beta, -160, 160, 0, 100)
     logoSvg.current.style.backgroundPosition = `${x}% ${y}%`
     stripe.current.style.backgroundPosition = `${x}% ${y}%`
