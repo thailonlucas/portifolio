@@ -3,9 +3,21 @@
   background-image: url('./resources/img/holo-bg.png');
   width: 100%;
   height: 100px;
-  /* background-position: 0% 0%; */
+  background-position: 0% 0%;
   background-size: 300% 300%;
   clip-path: url(#logo-clip-path);
+}
+
+.holo-bg2{
+  position: absolute;
+  background-image: url('./resources/img/holo-bg.png');
+  width: 300px;
+  height: 50px;
+  top: 130px;
+  border-radius: 50px;
+  background-position: 0% 0%;
+  background-size: 300% 300%;
+  /* clip-path: url(#logo-clip-path); */
 }
 
 .home-screen{
